@@ -52,7 +52,7 @@
                 <div class="brand">
                   <h1 class="brand_name">
                     <a href="./">
-                      <img class="logo" src="images/logo.PNG" alt="not workeing">
+                      <img class="logo" {{ asset('images/logo.PNG'); }} alt="not workeing">
                     </a>
                   </h1>
                 </div>
