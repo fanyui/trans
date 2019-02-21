@@ -14,6 +14,10 @@ return [
     */
 
     'previous' => '&laquo; Previous',
-    'next' => 'Next &raquo;',
+
+
+    'language_training' => '<span>Language</span> training',
+
+    'localisation_service' => '<span>Localization</span> services</h2>', 
 
 ];

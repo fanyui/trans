@@ -20,7 +20,7 @@ h1 {
   text-transform: uppercase;
   color: #fff; }
   h1 span {
-    color: #9d2a3b; }
+    color: #dd9f24; }
   @media (max-width: 991px) {
     h1 {
       font-size: 30px; } }
@@ -50,7 +50,7 @@ h4 {
   letter-spacing: -.3px; }
   h4 span {
     display: block;
-    color: #9d2a3b;
+    color: #dd9f24;
     font-size: 14px;
     line-height: 20px; }
 
@@ -68,7 +68,7 @@ h6 {
   text-align: center; }
 
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  color: #9d2a3b; }
+  color: #dd9f24; }
 
 p a:hover, .marked-list a:hover, .list a:hover, .addr a:hover {
   text-decoration: underline; }
@@ -179,12 +179,12 @@ h6 + .row {
   display: inline-block;
   font-size: 36px;
   line-height: 44px;
-  color: #9d2a3b; }
+  color: #dd9f24; }
 
 /*==================    Buttons    ======================*/
 .btn {
   display: inline-block;
-  color: #9d2a3b;
+  color: #dd9f24;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
@@ -222,7 +222,7 @@ h6 + .row {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-  background: #9d2a3b; }
+  background: #dd9f24; }
   .btn3:hover {
     background: #4f4f4f; }
   .btn3:active {
@@ -415,7 +415,7 @@ h6 + .row {
     font-size: 24px;
     line-height: 30px; }
     .social-list li a:hover {
-      color: #9d2a3b; }
+      color: #dd9f24; }
   .social-list li + li {
     margin-left: 65px; }
     @media (max-width: 767px) {
@@ -464,7 +464,7 @@ h6 + .row {
       font-family: "FontAwesome";
       font-size: 15px;
       line-height: 25px;
-      color: #9d2a3b;
+      color: #dd9f24;
       padding: 0 2px; }
     .marked-list li + li {
       margin-top: 7px; }
@@ -517,7 +517,7 @@ h6 + .row {
     .index-list2 li:before {
       content: counter(li,decimal-leading-zero) ".";
       counter-increment: li;
-      color: #9d2a3b;
+      color: #dd9f24;
       font-size: 36px;
       line-height: 28px;
       font-weight: 400;
@@ -539,7 +539,7 @@ h6 + .row {
     display: block;
     font-size: 48px;
     line-height: 48px;
-    color: #9d2a3b; }
+    color: #dd9f24; }
     .addr .linecons + * {
       margin-top: 20px; }
 
@@ -588,7 +588,7 @@ h6 + .row {
   margin-top: 10px;
   padding: 35px 10px;
   text-align: center;
-  background: #9d2a3b;
+  background: #dd9f24;
   z-index: 2;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -603,7 +603,7 @@ h6 + .row {
     width: 0;
     height: 0;
     border: 5px solid transparent;
-    border-bottom-color: #9d2a3b; }
+    border-bottom-color: #dd9f24; }
 
 .sf-menu ul > li {
   position: relative; }
@@ -634,7 +634,7 @@ h6 + .row {
     border-right-color: #3e454c; }
 
 .sf-menu ul ul > li.sfHover > a, .sf-menu ul ul > li > a:hover {
-  color: #9d2a3b; }
+  color: #dd9f24; }
 
 .sf-menu > li > .sf-with-ul {
   position: relative; }
@@ -706,7 +706,7 @@ h6 + .row {
       background: #f5f5f5;
       color: #2d2d2d; }
     .rd-mobilemenu_ul a:hover {
-      background: #9d2a3b;
+      background: #dd9f24;
       color: #FFF; }
     .rd-mobilemenu_ul a .rd-submenu-toggle {
       position: absolute;
@@ -890,7 +890,7 @@ h6 + .row {
   z-index: 20; }
   .toTop:hover {
     color: #fff;
-    background: #9d2a3b;
+    background: #dd9f24;
     text-decoration: none; }
 
 .mobile .toTop,

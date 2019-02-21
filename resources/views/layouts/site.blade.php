@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'OmniNuance') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.js') }}" ></script>
@@ -52,7 +52,7 @@
                 <div class="brand">
                   <h1 class="brand_name">
                     <a href="./">
-                      <img class="logo" src = "{{ asset('images/logo.PNG') }}" alt="not workeing">
+                      <img class="logo" width="200" src="images/omninuance.PNG" alt="not workeing">
                     </a>
                   </h1>
                 </div>

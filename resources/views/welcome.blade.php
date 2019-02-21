@@ -9,17 +9,14 @@
           <div data-src="{{ asset('images/page-1_slide03.jpg') }}"></div>
         </div>
         <div class="camera_cnt">
-          <h2><span>Ensuring the highest</span><br>quality of our translations </h2>
-          <p>Our company has been working in the field of translation for almost 20 years. We have undertaken many projects for international companies spanning practically all sectors and areas of specialisation.</p>
-          <a href="#" class="btn">Read more</a>
+          @lang('home.camera_count')
+          <a href="#" class="btn">@lang('home.read_more')</a>
         </div>
       </div>
     </section>
     <section class="well1">
       <div class="container wow fadeInUp">
-        <h2><span>What</span> we can offer</h2>
-        <h6>At OmniText we specialise in advertising copy translations for different information channels and media.
-            This category includes brochures, multimedia presentations, scripts for corporate or product videos, package inserts, slogans, advertising campaigns, websites and so on.</h6>
+        @lang('home.what_we_offer')
         <div class="row mt2">
           <div class="col-xs-12 col-sm-4">
             <div class="box">
@@ -27,8 +24,7 @@
                 <span class="linecons linecons-pen3"></span>
               </div>
               <div class="box_cnt__no-flow">
-                <h3><a href="#">Document <span>Translation</span></a></h3>
-                <p>Most of our work involves technical translations for a wide range of industries. This group includes technical manuals, product information, documentation on tenders, technical data sheets, project documentation, technical reports, specialists reports, user interfaces, parts lists, catalogues and so on</p>
+                @lang('home.document_translation')
               </div>
             </div>
           </div>
@@ -38,8 +34,7 @@
                 <span class="linecons linecons-world5"></span>
               </div>
               <div class="box_cnt__no-flow">
-                <h3><a href="#">Legal <span>Translation</span></a></h3>
-                <p>At OminText  we handle all types of legal translations in diverse areas that cover legal, financial and economic matters.</p>
+                @lang('home.legal_translation')
               </div>
             </div>
           </div>
@@ -49,9 +44,7 @@
                 <span class="linecons linecons-diamons"></span>
               </div>
               <div class="box_cnt__no-flow">
-                <h3><a href="#">Audio & Video <span>Translation</span></a></h3>
-                <p>At OmniText we specialise in advertising copy translations for different information channels and media.This category includes brochures, multimedia presentations, scripts for corporate or product videos, package inserts, slogans, advertising campaigns, websites and so on.
-                </p>
+               @lang('home.audio_visual')
               </div>
             </div>
           </div>
@@ -63,8 +56,7 @@
                 <span class="linecons linecons-see"></span>
               </div>
               <div class="box_cnt__no-flow">
-                <h3><a href="#">Website <span>Translation</span></a></h3>
-                <p>Do you need to translate a website? At OmniText we are experts in translating websites to guarantee they enjoy the same success as in their home country</p>
+                @lang('home.website_translation')
               </div>
             </div>
           </div>
@@ -74,8 +66,7 @@
                 <span class="linecons linecons-user12"></span>
               </div>
               <div class="box_cnt__no-flow">
-                <h3><a href="#">Proofreading <span>Translation</span></a></h3>
-                <p>Fusce eleifend sodales orci, at malesuada mauri sringilla imperdiet. Maecenas dolor elit, ultrices eget ligula ut, fringilla facilisis.</p>
+                @lang('home.proofreading')
               </div>
             </div>
           </div>
@@ -85,8 +76,7 @@
                 <span class="linecons linecons-big58"></span>
               </div>
               <div class="box_cnt__no-flow">
-                <h3><a href="#">Interpreting <span>Services</span></a></h3>
-                <p>Whether it is a business meeting, event, training, summit, audit or interview, when people come together from around the world, the most important thing is that they understand one another. Ideas, advancements, policies and innovations are too important to be lost in translation.</p>
+                @lang('home.interpreting_service')
               </div>
             </div>
           </div>
@@ -95,12 +85,12 @@
     </section>
     <section class="parallax parallax_1" data-url="images/parallax01.jpg">
       <div class="container">
-        <h2><span>Get in Touch</span> for more super pricing</h2>
+        <h2>@lang('home.get_intouch')</h2>
         <div class="row">
           <div class="col-xs-12 col-sm-4">
             <div class="box2" data-equal-group="3">
               <div class="box2_cnt">
-                <h2>Silver</h2>
+                <h2>@lang('home.silver')</h2>
                 <div class="box2_cnt_text">
                   <ul>
                     <li>Proin dictum</li>
@@ -156,7 +146,7 @@
     </section>
     <section class="well2">
       <div class="container wow fadeInUp">
-        <h2><span>Latest</span> translation projects</h2>
+        <h2>@lang('home.latest_translation')</h2>
         
         
       </div>
@@ -165,50 +155,50 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-4">
-            <h2 class="tl"><span>We translate</span><br>into all languages</h2>
-            <p class="text2">Quisque molestie tincidunt urna nec bibend um. Fusce eleifend sodales orci, at malesuada mauris fri ngilla imperdiet. Maecenas dolor elit ul trices ligula ut, fringilla facilisis diam. Nullam laoreet nulla sem, et malesua.</p>
+            <h2 class="tl">@lang('home.all_languages')</h2>
+            
           </div>
           <div class="col-xs-3 col-md-2 wow fadeInRight">
             <ul class="marked-list">
-              <li>Afrikaans</li>
-              <li>Albanian</li>
-              <li>Arabic</li>
-              <li>Bulgarian</li>
-              <li>Chinese</li>
-              <li>Dutch</li>
-              <li>English</li>
+              <li>@lang('home.africans')</li>
+              <li>@lang('home.english')</li>
+              <li>@lang('home.arabic')</li>
+              <li>@lang('home.bulgarian')</li>
+              <li>@lang('home.chinese')</li>
+              <li>@lang('home.dutch')</li>
             </ul>
           </div>
           <div class="col-xs-3 col-md-2 wow fadeInRight" data-wow-delay=".2s">
             <ul class="marked-list">
-              <li>Farsi</li>
-              <li>French</li>
-              <li>Georgian</li>
-              <li>German</li>
-              <li>Greek</li>
-              <li>Haitian Creole</li>
-              <li>Hebrew</li>
+              <li>@lang('home.farsi')</li>
+              <li>@lang('home.french')</li>
+              <li>@lang('home.geogerian')</li>
+              <li>@lang('home.german')</li>
+              <li>@lang('home.greek')</li>
+              <li>@lang('home.haitan')</li>
+              <li>@lang('home.hebrew')</li>
             </ul>
           </div>
           <div class="col-xs-3 col-md-2 wow fadeInRight" data-wow-delay=".4s">
             <ul class="marked-list">
-              <li>Hungarian</li>
-              <li>Indonesian</li>
-              <li>Italian</li>
-              <li>Japanese</li>
-              <li>Korean</li>
-              <li>Latvian</li>
-              <li>Norwegian</li>
+              <li>@lang('home.hungarian')</li>
+              <li>@lang('home.indonesia')</li>
+              <li>@lang('home.italian')</li>
+              <li>@lang('home.japanese')</li>
+              <li>@lang('home.korean')</li>
+              <li>@lang('home.latvian')</li>
+              <li>@lang('home.norwegian')</li>
             </ul>
           </div>
           <div class="col-xs-3 col-md-2 wow fadeInRight" data-wow-delay=".6s">
             <ul class="marked-list">
-              <li>Polish</li>
-              <li>Portuguese</li>
-              <li>Faroese</li>
-              <li>Romani</li>
-              <li>Russian</li>
-              <li>Sardinian </li>
+              <li>@lang('home.polish')</li>
+              <li>@lang('home.portuguese')</li>
+              <li>@lang('home.faroese')</li>
+              <li>@lang('home.romani')</li>
+              <li>@lang('home.russian')</li>
+              <li>@lang('home.sardinian') </li>
+
             </ul>
           </div>
         </div>
@@ -265,7 +255,7 @@
               data-constraints="@NotEmpty"></textarea> 
             </label> 
             <div class="mfControls"> 
-              <button class="btn2" type="submit">Submit comment</button> 
+              <button class="btn2" type="submit">@lang('home.submit_coment')</button> 
             </div> 
           </fieldset> 
         </form>
