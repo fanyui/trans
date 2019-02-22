@@ -10,7 +10,7 @@
         </div>
         <div class="camera_cnt">
           @lang('home.camera_count')
-          <a href="#" class="btn">@lang('home.read_more')</a>
+          <a href="{{route('about')}}" class="btn">@lang('home.read_more')</a>
         </div>
       </div>
     </section>
