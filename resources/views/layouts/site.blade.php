@@ -133,7 +133,15 @@
         =========================================================-->
         <footer>
             <div class="container tc">
+
               <ul class="social-list">
+              <li>
+              <select class="form-control" name="lang">
+                <option> EN</option>
+                <option> FR</option>
+                <option> DE</option>
+              </select>
+            </li>
                 <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                 <li><a href="#"><span class="fa fa-youtube"></span></a></li>
                 <li><a href="#"><span class="fa fa-facebook"></span></a></li>
