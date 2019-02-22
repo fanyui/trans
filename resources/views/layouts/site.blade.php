@@ -52,7 +52,7 @@
                 <div class="brand">
                   <h1 class="brand_name">
                     <a href="./">
-                      <img class="logo" width="200" src="images/omninuance.PNG" alt="OmniNuance">
+                      <img class="logo" width="200" src="{{ asset('images/omninuance.png') }}" alt="OmniNuance">
                     </a>
                   </h1>
                 </div>
