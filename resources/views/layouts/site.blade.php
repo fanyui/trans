@@ -60,7 +60,7 @@
                 <nav class="nav">
                   <ul class="sf-menu" data-type="navbar">
                     <li class="{{ Request::is('/') ? 'active' : ''  }}">
-                      <a href="./">Multi</a>
+                      <a href="./">Multilingual</a>
                       <ul>
                         <li>
                           <a href="#">Advertising/Marketing Translation</a>
