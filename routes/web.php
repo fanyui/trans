@@ -10,9 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('welcome/{locale}', function ($locale) {
+Route::get('/language/{locale}', function ($locale) {
     App::setLocale($locale);
-
+return redirect("/");
     //
 });
 
