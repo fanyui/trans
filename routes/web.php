@@ -28,3 +28,7 @@ Route::get('/services', 'GeneralController@services')->name('services');
 Route::get('/about', 'GeneralController@about')->name('about');
 Route::get('/languages', 'GeneralController@language')->name('language');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

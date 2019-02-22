@@ -52,7 +52,7 @@
                 <div class="brand">
                   <h1 class="brand_name">
                     <a href="./">
-                      <img class="logo" width="200" src="{{ asset('images/omninuance.png') }}" alt="OmniNuance">
+                      <img class="logo" width="200" src={{ asset('images/omninuance.png') }}" alt="OmniNuance">
                     </a>
                   </h1>
                 </div>
@@ -114,20 +114,10 @@
                     <li class="{{ Request::is('/about') ? 'active' : ''  }}">
                       <a href="{{route('about')}} ">About</a>
                     </li>
-                                        <li >
-                      <a href="./">Lang</a>
-                      <ul>
-                        <li>
-                          <a href="/language/en"> EN</a>
-                        </li>
-                        <li>
-                          <a href="/language/fr">FR</a>
-                        </li>
-                        <li>
-                          <a href="/language/de">DE</a>
-                        </li>
-                      </ul>
+                    <li class="{{ Request::is('/login') ? 'active' : ''  }}">
+                      <a href="{{route('login')}} ">Login</a>
                     </li>
+  
                   </ul>
                 </nav>
               </div>
