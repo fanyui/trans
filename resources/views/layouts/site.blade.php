@@ -60,7 +60,7 @@
                 <nav class="nav">
                   <ul class="sf-menu" data-type="navbar">
                     <li class="{{ Request::is('/about') ? 'active' : ''  }}">
-                      <a href="{{route('about')}} ">About</a>
+                      <a href="{{route('about')}} ">Home</a>
                       <ul>
                         
                           <li >
@@ -96,7 +96,7 @@
                     
 
                             <li>
-                            <a href="{{route('services') }}">Multilingual Translation</a>
+                            <a href="{{route('services') }}">Translation</a>
                             <ul>
                               <li>
                                 <a href="/services#translation">Advertising/Marketing Translation</a>
@@ -119,12 +119,11 @@
                             </ul>
                           </li>
 
-
                           <li >
-                              <a href="./">Editing Review Service</a>
+                              <a href="./">Proofreading & Editing</a>
                           </li>
                           <li >
-                              <a href="./">Localisation Globalisation and Internationalization</a>
+                              <a href="./">App & Website Localization</a>
                           </li>
 
                           <li >
@@ -142,7 +141,7 @@
                               </ul>
                           </li>
                           <li >
-                            <a href="./">Enterprise Terminology Management</a>
+                            <a href="./">Terminology Management</a>
                           </li>
                           <li >
                             <a href="./">Desktop Publishing(DTP)</a>
