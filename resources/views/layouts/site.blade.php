@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'OmniNuance') }}</title>
+    <title>{{ config('app.name', 'OmniNuance Translations') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.js') }}" ></script>
@@ -127,7 +127,13 @@
                         <li> <a href="{{route('login')}}">  Provider Portal </a></li>
                       </ul>
                     </li>
-  
+                  <li>
+              <select class="form-control" name="lang">
+                <option> EN</option>
+                <option> FR</option>
+                <option> DE</option>
+              </select>
+            </li>
                   </ul>
                 </nav>
               </div>
@@ -145,13 +151,7 @@
             <div class="container tc">
 
               <ul class="social-list">
-              <li>
-              <select class="form-control" name="lang">
-                <option> EN</option>
-                <option> FR</option>
-                <option> DE</option>
-              </select>
-            </li>
+
                 <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                 <li><a href="#"><span class="fa fa-youtube"></span></a></li>
                 <li><a href="#"><span class="fa fa-facebook"></span></a></li>
