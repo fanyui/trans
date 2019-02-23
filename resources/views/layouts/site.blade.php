@@ -159,7 +159,7 @@
                 <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
                 <li><a href="#"><span class="fa fa-rss"></span></a></li>
               </ul>
-              <p class="copy"><span class="copy-brand">OmniNuance Translation</span> © <span id="copyright-year"></span> • <a href="index-5.html">Privacy Policy</a></p>
+              <p class="copy"><span>OmniNuance Translations</span> © <span id="copyright-year"></span> • <a href="index-5.html">Privacy Policy</a></p>
             </div>
         </footer>
     </div>
