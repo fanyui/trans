@@ -59,29 +59,41 @@
 
                 <nav class="nav">
                   <ul class="sf-menu" data-type="navbar">
-                    <li class="{{ Request::is('/') ? 'active' : ''  }}">
-                      <a href="./">Multilingual</a>
-                      <ul>
-                        <li>
-                          <a href="#">Advertising/Marketing Translation</a>
-                        </li>
-                        <li>
-                          <a href="#">Technical Translation</a>
-                        </li>
-                        <li>
-                          <a href="#">Scientific and Medical Translation</a>
-                        </li>
-                        <li>
-                          <a href="#">Financial, Economical and Legal</a>
-                        </li>
-                        <li>
-                          <a href="#">Sworn Translation</a>
-                        </li>
-                        <li>
-                          <a href="#">Website Translation</a>
-                        </li>
-                      </ul>
+                    <li class="{{ Request::is('/about') ? 'active' : ''  }}">
+                      <a href="{{route('about')}} ">About</a>
                     </li>
+
+                    <li class="{{ Request::is('/services') ? 'active' : ''  }}">
+                      <a href="{{route
+                      ('services')}}">Services</a>
+                      <ul>
+                        <li class="{{ Request::is('/') ? 'active' : ''  }}">
+                        <a href="./">Multilingual</a>
+                        <ul>
+                          <li>
+                            <a href="#">Advertising/Marketing Translation</a>
+                          </li>
+                          <li>
+                            <a href="#">Technical Translation</a>
+                          </li>
+                          <li>
+                            <a href="#">Scientific and Medical Translation</a>
+                          </li>
+                          <li>
+                            <a href="#">Financial, Economical and Legal</a>
+                          </li>
+                          <li>
+                            <a href="#">Sworn Translation</a>
+                          </li>
+                          <li>
+                            <a href="#">Website Translation</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    </li>
+
+                    
                     <li >
                       <a href="./">Interpreting</a>
                       <ul>
@@ -103,19 +115,17 @@
                       <a href="index-1.html">Industries</a>
                     </li>
 
-                    <li class="{{ Request::is('/services') ? 'active' : ''  }}">
-                      <a href="{{route
-                      ('services')}}">Services</a>
-                    </li>
 
                     <li class="{{ Request::is('/contact-us') ? 'active' : ''  }}">
                       <a href="{{route('contact')}}">Contact Us</a>
                     </li>
-                    <li class="{{ Request::is('/about') ? 'active' : ''  }}">
-                      <a href="{{route('about')}} ">About</a>
-                    </li>
+
                     <li class="{{ Request::is('/login') ? 'active' : ''  }}">
                       <a href="{{route('login')}} ">Login</a>
+                      <ul>
+                        <li> <a href="{{route('login')}}" > Client Portal </a></li>
+                        <li> <a href="{{route('login')}}">  Provider Portal </a></li>
+                      </ul>
                     </li>
   
                   </ul>
@@ -149,7 +159,7 @@
                 <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
                 <li><a href="#"><span class="fa fa-rss"></span></a></li>
               </ul>
-              <p class="copy"><span class="copy-brand">Translation</span> © <span id="copyright-year"></span> • <a href="index-5.html">Privacy Policy</a></p>
+              <p class="copy"><span class="copy-brand">OmniNuance Translation</span> © <span id="copyright-year"></span> • <a href="index-5.html">Privacy Policy</a></p>
             </div>
         </footer>
     </div>

@@ -613,7 +613,7 @@ h6 + .row {
     font-size: 14px;
     line-height: 20px; }
   .sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
-    color: white; }
+    color: black; }
 
 .sf-menu ul ul {
   position: absolute;
@@ -622,7 +622,7 @@ h6 + .row {
   margin-left: 10px;
   width: 155px;
   margin-top: -10px;
-  background: #3e454c;
+  background: #dd9f24;
   padding: 30px 10px;
   text-align: center;
   z-index: 4; }
@@ -631,10 +631,10 @@ h6 + .row {
     left: -10px;
     margin-left: 0;
     border-bottom-color: transparent;
-    border-right-color: #3e454c; }
+    border-right-color: #dd9f24; }
 
 .sf-menu ul ul > li.sfHover > a, .sf-menu ul ul > li > a:hover {
-  color: #dd9f24; }
+  color: black; }
 
 .sf-menu > li > .sf-with-ul {
   position: relative; }
@@ -881,8 +881,8 @@ h6 + .row {
   -moz-box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 30px;
+  bottom: 90px;
   display: none;
   overflow: hidden;
   text-align: center;

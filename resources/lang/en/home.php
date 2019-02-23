@@ -22,7 +22,7 @@ return [
     'what_we_offer' => '<h2><span>What</span> we can offer</h2>
         <h6>At OmniNuance we specialise in advertising copy translations for different information channels and media.
             This category includes brochures, multimedia presentations, scripts for corporate or product videos, package inserts, slogans, advertising campaigns, websites and so on.</h6>',
-    'document_translation' => 'h3><a href="#">Document <span>Translation</span></a></h3>
+    'document_translation' => '<h3><a href="#">Document <span>Translation</span></a></h3>
                 <p>Most of our work involves technical translations for a wide range of industries. This group includes technical manuals, product information, documentation on tenders, technical data sheets, project documentation, technical reports, specialists reports, user interfaces, parts lists, catalogues and so on</p>',
     'legal_translation' => '<h3><a href="#">Legal <span>Translation</span></a></h3>
                 <p>At OminText  we handle all types of legal translations in diverse areas that cover legal, financial and economic matters.</p>',

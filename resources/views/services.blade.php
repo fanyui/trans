@@ -23,7 +23,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-4 wow fadeInUp">
             <img src="images/page-3_img01.jpg" alt=""> 
-            @lang('services.website_translation')
+            @lang('service.website_translation')
           </div>
           <div class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay=".2s">
             <img src="images/page-3_img02.jpg" alt=""> 
