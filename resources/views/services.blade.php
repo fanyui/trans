@@ -17,7 +17,7 @@
         </div>
       </div>
     </section>
-	 <section class="well2">
+	 <section id="translation" class="well2">
       <div class="container">
         @lang('service.translation_service')
         <div class="row">
@@ -66,7 +66,7 @@
         
       </div>
     </section>
-    <section class="well2">
+    <section id="other-translation-service" class="well2">
       <div class="container">
         <h2>@lang('service.other_translation_service')
         <div class="index-list2 wow fadeInUp">

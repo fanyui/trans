@@ -28,7 +28,7 @@
         </div>
       </div>
     </section>
-        <section class="parallax parallax_1" data-url="images/parallax03.jpg">
+        <section id="our-team" class="parallax parallax_1" data-url="images/parallax03.jpg">
       <div class="container">
         <h2>@lang('about.meet_team')
         <h6></h6>
@@ -74,7 +74,7 @@
     </section>
 
   
-    <section class="well2">
+    <section id="privacy" class="well2">
       <div class="container">
         @lang('about.privacy_policy')
                   <div class="row">

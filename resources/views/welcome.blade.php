@@ -144,74 +144,16 @@
         </div>
       </div>
     </section>
- <section class="well2">
+      <section class="bg-secondary well4">
       <div class="container">
-        <h2><span>Testimonials</span></h2>
-        <h6>Phasellus lobortis leo eget diam venenatis porta. Proin maximus, mauris ut suscipit mollis nibh nisl hendrerit urna, a scelerisque est velit ut nulla. Etiam pellentesque nibh in facilisis aliquet.</h6>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 wow fadeInLeft ">
-            <div class="box4">
-              <div class="box4_aside">
-                <img src="images/page-2_img06.jpg" alt="">
-              </div>
-              <div class="box4_cnt__no-flow">
-                <blockquote class="quote">
-                  <div class="quote_text">
-                    <p>Vestibulum eget nunc eget leo fermentum imp erdiet. Quisque sit amet ligula porta, tempus ante nec, varius ni si. Nunc mollis vulputate tortor quis pharetra. Nam viverra nulla dolor, sit amet aliquet lectus </p>
-                  </div>
-                  <h4>Sam Kromstain,<span>client</span></h4>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 wow fadeInLeft" data-wow-delay=".2s">
-            <div class="box4">
-              <div class="box4_aside">
-                <img src="images/page-2_img07.jpg" alt="">
-              </div>
-              <div class="box4_cnt__no-flow">
-                <blockquote class="quote">
-                  <div class="quote_text">
-                    <p>Quisque sit amet ligula porta, tempus ante nec, va rius ni si. Nunc mollis vulputate tortor quis pharetra. Nam viverra nulla dolor, sit amet aliquet lectus vulputate ac. Suspendisse malesuada posuere </p>
-                  </div>
-                  <h4>Camala Haddon,<span>client</span></h4>
-                </blockquote>
-              </div>
-            </div>
-          </div>          
-        </div>
-        <div class="row mt1">
-          <div class="col-xs-12 col-sm-6 wow fadeInLeft ">
-            <div class="box4">
-              <div class="box4_aside">
-                <img src="images/page-2_img08.jpg" alt="">
-              </div>
-              <div class="box4_cnt__no-flow">
-                <blockquote class="quote">
-                  <div class="quote_text">
-                    <p>Nam viverra nulla dolor, sit amet aliquet lectus vulputate ac. Suspendisse malesuada posuere mauris a facilisis. Curabitur ac enim in diam blandit dapibus at eget dui. Maecenas efficitur arcu dictumr</p>
-                  </div>
-                  <h4>Inga North,<span>client</span></h4>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 wow fadeInLeft" data-wow-delay=".2s">
-            <div class="box4">
-              <div class="box4_aside">
-                <img src="images/page-2_img09.jpg" alt="">
-              </div>
-              <div class="box4_cnt__no-flow">
-                <blockquote class="quote">
-                  <div class="quote_text">
-                    <p>Nunc mollis vulputate tortor quis pharetra. Nam viverra nulla dolor, sit amet aliquet lectus vulputate ac. Suspend isse malesuada posuere mauris a facilisis.Curabitur ac enim in diam blandit dapibus at </p>
-                  </div>
-                  <h4>Patrick Pool,<span>client</span></h4>
-                </blockquote>
-              </div>
-            </div>
-          </div>          
-        </div>
+        <ul class="flex-list">
+          <li><img src="{{ asset('images/page-1_img08.png')}}" alt=""></li>
+          <li><img src="{{ asset('images/page-1_img09.png')}}" alt=""></li>
+          <li><img src="{{ asset('images/page-1_img10.png')}}" alt=""></li>
+          <li><img src="{{ asset('images/page-1_img11.png')}}" alt=""></li>
+          <li><img src="{{ asset('images/page-1_img12.png')}}" alt=""></li>
+          <li><img src="{{ asset('images/page-1_img13.png')}}" alt=""></li>
+        </ul>
       </div>
     </section>
     <section class="parallax parallax_2" data-url="images/parallax02.jpg">
@@ -292,7 +234,7 @@
       </div>      
       <div class="container">
         <h2><span>Contact</span> form</h2>
-        <form class='mailform' method="post" action="bat/rd-mailform.php"> 
+        <form class='mailform' method="post" action="{{route('saveContact')}}"> 
           <input type="hidden" name="form-type" value="contact"/> 
           <fieldset>
             <div class="row">
@@ -324,6 +266,8 @@
         </form>
       </div>
     </section>
+
+
 
 @endsection
 

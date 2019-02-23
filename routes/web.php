@@ -28,6 +28,8 @@ Route::get('/services', 'GeneralController@services')->name('services');
 Route::get('/about', 'GeneralController@about')->name('about');
 Route::get('/languages', 'GeneralController@language')->name('language');
 
+Route::post('/contact', 'GeneralController@language')->name('saveContact');
+
 
 Auth::routes();
 

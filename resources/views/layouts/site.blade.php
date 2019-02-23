@@ -37,7 +37,7 @@
     <link href="{{ asset('css/mailform.css') }}" rel="stylesheet">
 
 <!-- favicon -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('images/favico.png') }}" type="image/x-icon">
 
 
 </head>
@@ -61,53 +61,98 @@
                   <ul class="sf-menu" data-type="navbar">
                     <li class="{{ Request::is('/about') ? 'active' : ''  }}">
                       <a href="{{route('about')}} ">About</a>
+                      <ul>
+                        
+                          <li >
+                            <a href="{{route('about')}}">Our Commitment</a>
+                          </li>
+
+                          <li >
+                            <a href="/about#our-team">Our Team</a>
+                          </li>
+
+                          <li >
+                            <a href="/services#translation">Translation Localisation Processes</a>
+                          </li>
+
+                          <li >
+                            <a href="/about#quality">Testimonials</a>
+                          </li>
+                          <li >
+                            <a href="./">Quality And satisfaction Policy</a>
+                          </li>
+                          <li >
+                            <a href="/about#privacy">Privacy Policy</a>
+                          </li>
+
+                      </ul>
                     </li>
 
                     <li class="{{ Request::is('/services') ? 'active' : ''  }}">
                       <a href="{{route
                       ('services')}}">Services</a>
-                      <ul>
-                        <li class="{{ Request::is('/') ? 'active' : ''  }}">
-                        <a href="./">Multilingual</a>
                         <ul>
-                          <li>
-                            <a href="#">Advertising/Marketing Translation</a>
-                          </li>
-                          <li>
-                            <a href="#">Technical Translation</a>
-                          </li>
-                          <li>
-                            <a href="#">Scientific and Medical Translation</a>
-                          </li>
-                          <li>
-                            <a href="#">Financial, Economical and Legal</a>
-                          </li>
-                          <li>
-                            <a href="#">Sworn Translation</a>
-                          </li>
-                          <li>
-                            <a href="#">Website Translation</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                    </li>
 
                     
-                    <li >
-                      <a href="./">Interpreting</a>
-                      <ul>
-                        <li>
-                          <a href="#"> Simultaneous Interpreting</a>
-                        </li>
-                        <li>
-                          <a href="#">Whispered Interpreting</a>
-                        </li>
-                        <li>
-                          <a href="#">Consecutive Interpreting</a>
-                        </li>
-                      </ul>
+
+                            <li>
+                            <a href="{{route('services') }}">Multilingual Translation</a>
+                            <ul>
+                              <li>
+                                <a href="/services#translation">Advertising/Marketing Translation</a>
+                              </li>
+                              <li>
+                                <a href="/services#other-translation-service">Technical Translation</a>
+                              </li>
+                              <li>
+                                <a href="/services#other-translation-service">Scientific and Medical Translation</a>
+                              </li>
+                              <li>
+                                <a href="/services#other-translation-service">Financial, Economical and Legal</a>
+                              </li>
+                              <li>
+                                <a href="/services#other-translation-service">Sworn Translation</a>
+                              </li>
+                              <li>
+                                <a href="/services#other-translation-service">Website Translation</a>
+                              </li>
+                            </ul>
+                          </li>
+
+
+                          <li >
+                              <a href="./">Editing Review Service</a>
+                          </li>
+                          <li >
+                              <a href="./">Localisation Globalisation and Internationalization</a>
+                          </li>
+
+                          <li >
+                              <a href="./">Interpreting</a>
+                              <ul>
+                                <li>
+                                  <a href="#"> Simultaneous Interpreting</a>
+                                </li>
+                                <li>
+                                  <a href="#">Whispered Interpreting</a>
+                                </li>
+                                <li>
+                                  <a href="#">Consecutive Interpreting</a>
+                                </li>
+                              </ul>
+                          </li>
+                          <li >
+                            <a href="./">Enterprise Terminology Management</a>
+                          </li>
+                          <li >
+                            <a href="./">Desktop Publishing(DTP)</a>
+                          </li>
+                          <li >
+                            <a href="./">Quality Assurance</a>
+                          </li>
+                        </ul>
                     </li>
+
                     <li class="{{ Request::is('/language') ? 'active' : ''  }}">
                       <a href="{{route('language')}}">Languages</a>
                     </li>
