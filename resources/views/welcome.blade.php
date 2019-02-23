@@ -278,23 +278,28 @@
 <script data-cfasync="false" src="https://livedemo00.template-help.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
   
 </script>
-
+<!-- <script>
+// if (screen && screen.width > 640) {
+//   document.write('<script type="text/javascript" src="js/script.js"><\/script>');
+//}
+</script> -->
 <script src="{{ asset('js/script.js') }}" ></script>
-<script src="{{ asset('js/jquery.cookie.js') }}" ></script>
-<script  src="{{ asset('js/jquery.easing.1.3.js') }}" ></script>
-<script src="{{ asset('js/tmstickup.js') }}"></script>
-<script src="{{ asset('js/jquery.ui.totop.js') }}" ></script>
-<script src="{{ asset('js/jquery.equalheights.js') }}" ></script>
-<script src="{{ asset('js/superfish.js') }}"></script>
-<script src="{{ asset('js/jquery.rd-navbar.js') }}"></script>
-<script src="{{ asset('js/jquery.mobile.customized.min.js') }}" ></script>
-<script src="{{ asset('js/camera.js') }}"></script>
+<!-- <script src="{{ asset('js/jquery.cookie.js') }}" ></script> -->
+<!-- <script  src="{{ asset('js/jquery.easing.1.3.js') }}" ></script> -->
+<!-- <script src="{{ asset('js/tmstickup.js') }}"></script> -->
+<!-- <script src="{{ asset('js/jquery.ui.totop.js') }}" ></script> -->
+<!-- <script src="{{ asset('js/jquery.equalheights.js') }}" ></script> -->
+<!-- <script src="{{ asset('js/superfish.js') }}"></script> -->
+<!-- <script src="{{ asset('js/jquery.rd-navbar.js') }}"></script> -->
+<!-- <script src="{{ asset('js/jquery.mobile.customized.min.js') }}" ></script> -->
+<!-- <script src="{{ asset('js/camera.js') }}"></script>
 <script src="{{ asset('js/jquery.rd-parallax.js') }}" ></script>
 <script src="{{ asset('js/js') }}" ></script>
 <script src="{{ asset('js/jquery.rd-google-map.js') }}"></script>
-<script src="{{ asset('js/wow.js') }}" ></script>
-<script src="{{ asset('js/jquery.form.min.js') }}" ></script>
-<script src="{{ asset('js/jquery.rd-mailform.min.js') }}"></script>
+<script src="{{ asset('js/wow.js') }}" ></script> -->
+<!-- <script src="{{ asset('js/jquery.form.min.js') }}" ></script>
+<script src="{{ asset('js/jquery.rd-mailform.min.js') }}"></script> -->
+
 <script type="text/javascript">
  var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-7078796-5']);

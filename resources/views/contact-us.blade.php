@@ -72,7 +72,7 @@
 
 @section('footerScript')
 <script src="{{ asset('js/script.js') }}" ></script>
-<script src="{{ asset('js/jquery.cookie.js') }}" ></script>
+<!-- <script src="{{ asset('js/jquery.cookie.js') }}" ></script>
 <script  src="{{ asset('js/jquery.easing.1.3.js') }}" ></script>
 <script src="{{ asset('js/tmstickup.js') }}"></script>
 <script src="{{ asset('js/jquery.ui.totop.js') }}" ></script>
@@ -85,8 +85,8 @@
 <script src="{{ asset('js/js') }}" ></script>
 <script src="{{ asset('js/jquery.rd-google-map.js') }}"></script>
 <script src="{{ asset('js/wow.js') }}" ></script>
-<script src="{{ asset('js/jquery.form.min.js') }}" ></script>
-<script src="{{ asset('js/jquery.rd-mailform.min.js') }}"></script>
+<script src="{{ asset('js/jquery.form.min.js') }}" ></script> -->
+<!-- <script src="{{ asset('js/jquery.rd-mailform.min.js') }}"></script> -->
 @endsection
 
 

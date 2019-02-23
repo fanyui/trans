@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="desktop landscape">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="landscape">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -173,7 +173,7 @@
                     </li>
                   <li>
               <select class="form-control" name="lang">
-                <option> EN</option>
+                <option> {{ str_replace('_', '-', app()->getLocale()) }}</option>
                 <option> FR</option>
                 <option> DE</option>
               </select>
@@ -210,6 +210,7 @@
 
 
     @yield('footerScript')
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

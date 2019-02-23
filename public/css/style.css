@@ -596,6 +596,8 @@ h6 + .row {
   box-sizing: border-box; }
   .sf-menu ul:before {
     content: "";
+      color: #020049;
+
     position: absolute;
     top: -10px;
     left: 50%;
@@ -630,6 +632,8 @@ h6 + .row {
   text-align: center;
   z-index: 4; }
   .sf-menu ul ul:before {
+      color: #020049;
+
     top: 15px;
     left: -10px;
     margin-left: 0;
