@@ -576,7 +576,8 @@ h6 + .row {
     color: #fff; }
 
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.active > a {
-  color: red; }
+  color: #020049;
+}
 
 .sf-menu ul {
   color: #020049;
@@ -617,7 +618,7 @@ h6 + .row {
     font-size: 14px;
     line-height: 20px; }
   .sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
-    color: black; }
+    color: #020049; }
 
 .sf-menu ul ul {
     color: #020049;
@@ -641,7 +642,8 @@ h6 + .row {
     border-right-color: #dd9f24; }
 
 .sf-menu ul ul > li.sfHover > a, .sf-menu ul ul > li > a:hover {
-  color: black; }
+    color: #020049;
+ }
 
 .sf-menu > li > .sf-with-ul {
   position: relative; }

@@ -25,4 +25,8 @@ class GeneralController extends Controller
     {
     	return view('language');
     }
+    public function industry(Request $request)
+    {
+        return view('industry');
+    }
 }

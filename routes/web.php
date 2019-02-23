@@ -31,6 +31,7 @@ Route::get('/contact-us', 'GeneralController@contact')->name('contact');
 Route::get('/services', 'GeneralController@services')->name('services');
 Route::get('/about', 'GeneralController@about')->name('about');
 Route::get('/languages', 'GeneralController@language')->name('language');
+Route::get('/industry', 'GeneralController@industry')->name('industry');
 
 Route::post('/contact', 'GeneralController@language')->name('saveContact');
 

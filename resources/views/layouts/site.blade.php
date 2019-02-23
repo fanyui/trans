@@ -155,13 +155,26 @@
                     <li class="{{ Request::is('/language') ? 'active' : ''  }}">
                       <a href="{{route('language')}}">Languages</a>
                     </li>
-                    <li>
-                      <a href="index-1.html">Industries</a>
+                    <li class="{{ Request::is('/language') ? 'active' : ''  }}">
+                      <a href="{{route('industry') }}">Industries</a>
+                      <ul>
+                        <li> <a> Advertising, Marketing, PR</a></li>
+                        <li><a>Information Technology</a></li>
+                        <li><a>Retail & E-Commerce</a></li>
+                        <li><a>Medicine</a></li>
+                        <li><a>Travel & Tourism</a></li>
+                        <li><a>Human Resources</a></li>
+                        <li><a>Government</a></li>
+                        <li><a>Legal</a></li>
+                        <li><a>Media & Entertainment</a></li>
+                        <li><a>Finance and Banking</a></li>
+                        <li><a>Industrial & Manufacturing</a></li>
+                      </ul>
                     </li>
 
 
                     <li class="{{ Request::is('/contact-us') ? 'active' : ''  }}">
-                      <a href="{{route('contact')}}">Contact Us</a>
+                      <a href="{{route('contact')}}">Get a free quote</a>
                     </li>
 
                     <li class="{{ Request::is('/login') ? 'active' : ''  }}">
