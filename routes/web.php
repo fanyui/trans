@@ -12,7 +12,11 @@
 */
 Route::get('/language/{locale}', function ($locale) {
     App::setLocale($locale);
-return redirect("/");
+    \Session::put('locale', $locale);
+
+    return redirect()->back();
+	    return App::getLocale();
+		return redirect("/");
     //
 });
 

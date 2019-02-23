@@ -172,10 +172,10 @@
                       </ul>
                     </li>
                   <li>
-              <select class="form-control" name="lang">
-                <option> {{ str_replace('_', '-', app()->getLocale()) }}</option>
-                <option> FR</option>
-                <option> DE</option>
+              <select class="form-control" onchange="location = this.value;" name="lang">
+                <option value="/language/{{ str_replace('_', '-', app()->getLocale()) }}"> {{ str_replace('_', '-', app()->getLocale()) }}</option>
+                <option value="/language/fr"> FR</option>
+                <option value="language/de"> DE</option>
               </select>
             </li>
                   </ul>
