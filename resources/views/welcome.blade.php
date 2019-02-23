@@ -144,7 +144,7 @@
         </div>
       </div>
     </section>
-      <section class="bg-secondary well4">
+      <section id="testimonials" class="bg-secondary well4">
       <div class="container">
         <ul class="flex-list">
           <li><img src="{{ asset('images/page-1_img08.png')}}" alt=""></li>

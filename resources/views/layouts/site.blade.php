@@ -76,7 +76,7 @@
                           </li>
 
                           <li >
-                            <a href="/about#quality">Testimonials</a>
+                            <a href="/#testimonials">Testimonials</a>
                           </li>
                           <li >
                             <a href="./">Quality And satisfaction Policy</a>
