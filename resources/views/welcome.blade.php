@@ -233,7 +233,7 @@
         </div>  
       </div>      
       <div class="container">
-        <h2><span>Contact</span> form</h2>
+        <h2><span>Get a</span> free quote</h2>
         <form class='mailform' method="post" action="{{route('saveContact')}}"> 
           <input type="hidden" name="form-type" value="contact"/> 
           <fieldset>

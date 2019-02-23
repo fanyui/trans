@@ -34,7 +34,7 @@
         </div>  
       </div>      
       <div class="container">
-        <h2><span>Contact</span> form</h2>
+        <h2><span>Get </span> a free quote</h2>
         <form class='mailform' method="post" action="bat/rd-mailform.php"> 
           <input type="hidden" name="form-type" value="contact"/> 
           <fieldset>

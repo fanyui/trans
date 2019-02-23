@@ -174,7 +174,7 @@
 
 
                     <li class="{{ Request::is('/contact-us') ? 'active' : ''  }}">
-                      <a href="{{route('contact')}}">Get a free quote</a>
+                      <a href="{{route('contact')}}">Contact Us</a>
                     </li>
 
                     <li class="{{ Request::is('/login') ? 'active' : ''  }}">
