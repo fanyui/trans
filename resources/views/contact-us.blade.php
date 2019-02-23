@@ -61,7 +61,7 @@
               data-constraints="@NotEmpty"></textarea> 
             </label> 
             <div class="mfControls"> 
-              <button class="btn2" type="submit">Submit comment</button> 
+              <button class="btn2" type="submit">Submit</button> 
             </div> 
           </fieldset> 
         </form>
