@@ -35,7 +35,7 @@
       </div>      
       <div class="container">
         <h2><span>Get </span> a free quote</h2>
-        <form class='mailform' method="post" action="bat/rd-mailform.php"> 
+        <form class='mailform' method="post" action="{{route('saveContact')}}> 
           <input type="hidden" name="form-type" value="contact"/> 
           <fieldset>
             <div class="row">
@@ -68,6 +68,7 @@
       </div>
     </section>
 @endsection
+
 
 
 @section('footerScript')

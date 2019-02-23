@@ -209,63 +209,7 @@
         </div>
       </div>
     </section>
-    <section class="bg1 well3">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="addr">
-              <span class="linecons linecons-location4"></span>
-              <p>9870 St Vincent Place,<br>Glasgow, DC 45 Fr 45.</p>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="addr">
-              <span class="linecons linecons-packet"></span>
-              <p><a href="/cdn-cgi/l/email-protection#0320"><span class="__cf_email__" data-cfemail="d7bab6bebb97b3b2bab8bbbeb9bcf9b8a5b0">[email&#160;protected]</span></a></p>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="addr">
-              <span class="linecons linecons-phone12"></span>
-              <p><a href="callto:#">+1 800 889 9898</a></p>
-            </div>
-          </div>
-        </div>  
-      </div>      
-      <div class="container">
-        <h2><span>Get a</span> free quote</h2>
-        <form class='mailform' method="post" action="{{route('saveContact')}}"> 
-          <input type="hidden" name="form-type" value="contact"/> 
-          <fieldset>
-            <div class="row">
-              <div class="col-xs-12 col-sm-6"> 
-                <label> 
-                  <input type="text" 
-                  name="name" 
-                  placeholder="Your Name" 
-                  data-constraints="@LettersOnly @NotEmpty"/> 
-                </label> 
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <label> 
-                  <input type="text" 
-                  name="phone" 
-                  placeholder="Your Phone" 
-                  data-constraints="@Phone"/> 
-                </label>
-              </div> 
-            </div>
-            <label> 
-              <textarea name="message" placeholder="Your Message" 
-              data-constraints="@NotEmpty"></textarea> 
-            </label> 
-            <div class="mfControls"> 
-              <button class="btn2" type="submit">@lang('home.submit_coment')</button> 
-            </div> 
-          </fieldset> 
-        </form>
-      </div>
-    </section>
+
 
 
 
