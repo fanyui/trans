@@ -1056,7 +1056,9 @@ div.text-container {
     padding: 15px 0 20px;
     font-size: 15px;
     line-height: 32px;
-    height: auto;
+    height: 50em;
+    overflow: hidden;
+
 }
 
 h1 {
