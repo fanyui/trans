@@ -576,7 +576,7 @@ h6 + .row {
     color: #fff; }
 
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.active > a {
-  color: #020049;
+  color: #dd9f24;
 }
 
 .sf-menu ul {
@@ -1023,3 +1023,49 @@ footer {
     text-transform: uppercase; }
   footer * + .copy {
     margin-top: 35px; }
+
+
+
+
+/*========================================================
+         Show more style of the home page  Styles
+=========================================================*/
+
+div.text-container {
+    margin: 0 auto;
+    width: 75%;    
+}
+
+.hideContent {
+
+      border-top: 2px  #fff;
+    border-bottom: 2px  #fff;
+    padding: 15px 0 20px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 32px;
+    overflow: hidden;
+/*    line-height: 1em;
+*/    height: 16em;
+}
+
+
+.showContent{
+    border-top: 2px  #fff;
+    border-bottom: 2px  #fff;
+    padding: 15px 0 20px;
+    font-size: 15px;
+    line-height: 32px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;        
+}
+p {
+    padding: 10px 0;
+}
+.show-more {
+    padding: 10px 0;
+    text-align: center;
+}

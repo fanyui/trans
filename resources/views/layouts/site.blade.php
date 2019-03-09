@@ -35,6 +35,7 @@
     <link href="{{ asset('css/linecons.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/mailform.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/jquery-ui.min.css') }}" rel="stylesheet">
 
 <!-- favicon -->
     <link rel="icon" href="{{asset('images/favico.png') }}" type="image/x-icon">
@@ -147,7 +148,10 @@
                             <a href="./">Desktop Publishing(DTP)</a>
                           </li>
                           <li >
-                            <a href="./">Quality Assurance</a>
+                            <a href="./">Language Consulting</a>
+                          </li>
+                          <li >
+                            <a href="./">Content Creation</a>
                           </li>
                         </ul>
                     </li>
@@ -191,9 +195,19 @@
                   <li>
               <select class="form-control" onchange="location = this.value;" name="lang">
                 <option value="/language/{{ str_replace('_', '-', app()->getLocale()) }}"> {{ str_replace('_', '-', app()->getLocale()) }}</option>
-                <option value="/language/en"> EN</option>
+                @if( str_replace('_', '-', app()->getLocale())!='en' )
+                  <option value="/language/en"> EN</option>
+                @endif
+
+                @if( str_replace('_', '-', app()->getLocale())!='fr' )
                 <option value="/language/fr"> FR</option>
+
+                @endif
+
+               @if( str_replace('_', '-', app()->getLocale())!='de' )
                 <option value="language/de"> DE</option>
+
+                @endif
               </select>
             </li>
                   </ul>

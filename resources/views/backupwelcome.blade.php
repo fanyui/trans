@@ -83,79 +83,61 @@
         </div>
       </div>
     </section>
-    <section id="four-box" class="parallax parallax_1" data-url="images/parallax01.jpg">
+    <section class="parallax parallax_1" data-url="images/parallax01.jpg">
       <div class="container">
         <h2>@lang('home.get_intouch')</h2>
         <div class="row">
-          <div class="col-xs-12 col-sm-3">
+          <div class="col-xs-12 col-sm-4">
             <div class="box2" data-equal-group="3">
               <div class="box2_cnt">
-                <h2>Best Rates</h2>
+                <h2>@lang('home.silver')</h2>
                 <div class="box2_cnt_text">
-                  <div class="content hideContent ">
-                  OmniNuance Translations offer affordable prices while maintaining high-quality translation standards. We offer a wide range of pricing options. Whatever your language choices, field of expertise, and deadlines, we will always find the best possible pricing option for you. When ordering our services, you’ll only pay for what we offer, no minimum spend, setup fees, or hidden costs. Our same flat fees apply to urgent projects as well as for projects needed to be completed over the weekend. There are no extra fees with us.                    
-                  </div>
-                   <div class="show-more">
-                      <a href="/#four-box" class="btn2">Show more</a>
-                  </div>
-
+                  <ul>
+                    <li>Proin dictum</li>
+                    <li>Elementum velit</li>
+                    <li>Consequat ante</li>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Sit amet</li>
+                  </ul>
                 </div>
-            
+                <div class="price"><span class="price_unit">$</span><span class="price_value">29</span>  /mo</div>
+                <a href="#" class="btn2">Sign up</a>
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-3">
+          <div class="col-xs-12 col-sm-4">
             <div class="box2 box2_main">
               <div class="box2_cnt">
-                <h2>Highest Quality</h2>
+                <h2>Gold</h2>
                 <div class="box2_cnt_text">
-                  <div class="content hideContent ">
-
-                  OmniNuance Translations focuses on creating top quality translations for our clients. Each step of the process aims to ensure the best possible quality and prompt delivery times. We use pre-translation tools, such as style guides, glossaries, reference documents, and previous TMs. Our expert project managers match your project with one of our experienced and qualified professional translators. We choose each translator carefully based on their specialized knowledge in the field related to your specific project. Each translator works with projects in their mother tongue and has an excellent knowledge of the source language and the target language. This always ensures that the right translator is selected to work on your translation.
-
-We are always on the lookout for opportunities to further improve the quality of our services, including new technologies and innovative techniques.  We aim to build long-term relationships with our clients. Effective communication is the key to the company's success.
-
-              </div>
-                   <div class="show-more">
-                      <a href="/#four-box" class="btn2">Show more</a>
-                  </div>              
+                  <ul>
+                    <li>Vestibulum iaculis</li>
+                    <li>Lacinia est</li>
+                    <li>Proin dictum</li>
+                    <li>Elementum velit</li>
+                    <li>Consequat ante</li>
+                  </ul>
                 </div>
-
+                <div class="price"><span class="price_unit">$</span><span class="price_value">69</span>  /mo</div>
+                <a href="#" class="btn2">Sign up</a>
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-3">
-            <div class="box2 box2_main">
-              <div class="box2_cnt">
-                <h2>Confidentiality</h2>
-                <div class="box2_cnt_text">
-                  <div class="content hideContent ">
-
-                  You want to be sure that your text is in good hands. We understand that our clients value their privacy, particularly with respect to personal or confidential business documents.
-
-At OmniNuance Translations, we guarantee the confidentiality of your documents by using virtual private networks, secure servers, and other security technologies to store and transmit your data. We maintain the utmost confidentiality for all documentation and personal data provided to us during our consulting and translation work. Similarly, we guarantee that all provided data will only be used for the completion of the agreed service and that it will be handled with complete discretion. All our external suppliers must sign a confidentiality agreement which binds them to follow our Privacy Policy implicitly.
-                </div>
-                   <div class="show-more">
-                      <a href="/#four-box" class="btn2">Show more</a>
-                  </div> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-3">
+          <div class="col-xs-12 col-sm-4">
             <div class="box2" data-equal-group="3">
               <div class="box2_cnt">
-                <h2>Fast Turnarounds</h2>
+                <h2>Platinum</h2>
                 <div class="box2_cnt_text">
-                  <div class="content hideContent ">
-
-                  OmniNuance Translations has the appropriate resources to respond quickly to your urgent requests. Our cutting-edge technologies and our team of qualified and experienced translators enable us to complete large projects in a very short time. No other translation company can provide fast and high-quality services at a more competitive rate.
-                  </div>
-                  <div class="show-more">
-                      <a href="/#four-box" class="btn2">Show more</a>
-                  </div> 
+                  <ul>
+                    <li>Sit amet</li>
+                    <li>Consectetuer</li>
+                    <li>Adipiscing elit</li>
+                    <li>Pellentesque sed</li>
+                    <li>Dolor</li>
+                  </ul>
                 </div>
-
+                <div class="price"><span class="price_unit">$</span><span class="price_value">99</span>  /mo</div>
+                <a href="#" class="btn2">Sign up</a>
               </div>
             </div>
           </div>
@@ -164,7 +146,6 @@ At OmniNuance Translations, we guarantee the confidentiality of your documents b
     </section>
       <section id="testimonials" class="bg-secondary well4">
       <div class="container">
-        <h2> <span>Our Top Clients</span> </h2>
         <ul class="flex-list">
           <li><img src="{{ asset('images/page-1_img08.png')}}" alt=""></li>
           <li><img src="{{ asset('images/page-1_img09.png')}}" alt=""></li>
@@ -211,7 +192,7 @@ At OmniNuance Translations, we guarantee the confidentiality of your documents b
               <li>@lang('home.japanese')</li>
               <li>@lang('home.korean')</li>
               <li>@lang('home.latvian')</li>
-              <li>@lang('home.norwegain')</li>
+              <li>@lang('home.norwegian')</li>
             </ul>
           </div>
           <div class="col-xs-3 col-md-2 wow fadeInRight" data-wow-delay=".6s">
@@ -247,24 +228,7 @@ At OmniNuance Translations, we guarantee the confidentiality of your documents b
 //}
 </script> -->
 <script src="{{ asset('js/script.js') }}" ></script>
-<script type="text/javascript">
-  $(".show-more a").on("click", function() {
-    var $this = $(this); 
-    var $content = $this.parent().prev("div.content");
-    var linkText = $this.text().toUpperCase();    
-    
-    if(linkText === "SHOW MORE"){
-        linkText = "Show less";
-        $content.switchClass("hideContent", "showContent", 400);
-    } else {
-        linkText = "Show more";
-        $content.switchClass("showContent", "hideContent", 400);
-    };
-
-    $this.text(linkText);
-});
-</script>
-<script src="{{ asset('js/jquery-ui.min.js') }}" ></script>
+<!-- <script src="{{ asset('js/jquery.cookie.js') }}" ></script> -->
 <!-- <script  src="{{ asset('js/jquery.easing.1.3.js') }}" ></script> -->
 <!-- <script src="{{ asset('js/tmstickup.js') }}"></script> -->
 <!-- <script src="{{ asset('js/jquery.ui.totop.js') }}" ></script> -->
